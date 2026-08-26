@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  
+}
+
+.image-container input{
+  display:block;
+  color: red;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@15&display=swap');
+
+.image-container h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: 'Honk', system-ui, sans-serif;
+}
+
+.upload-button {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#file-upload {
+  display: none;
+}
+
+
+
+
+
